@@ -11,6 +11,8 @@
 		BDA704052A67012E003C2097 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA704042A67012E003C2097 /* ContentView.swift */; };
 		BDA704072A67012F003C2097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA704062A67012F003C2097 /* Assets.xcassets */; };
 		BDA7040A2A67012F003C2097 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA704092A67012F003C2097 /* Preview Assets.xcassets */; };
+		BDA704112A67042E003C2097 /* toDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA704102A67042E003C2097 /* toDo.swift */; };
+		BDA704152A670E82003C2097 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA704142A670E82003C2097 /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BDA704042A67012E003C2097 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDA704062A67012F003C2097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDA704092A67012F003C2097 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDA704102A67042E003C2097 /* toDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDo.swift; sourceTree = "<group>"; };
+		BDA704142A670E82003C2097 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,9 @@
 		BDA704012A67012E003C2097 /* toDoItem */ = {
 			isa = PBXGroup;
 			children = (
+				BDA704102A67042E003C2097 /* toDo.swift */,
 				BDA704022A67012E003C2097 /* toDoItemApp.swift */,
+				BDA704142A670E82003C2097 /* NewToDoView.swift */,
 				BDA704042A67012E003C2097 /* ContentView.swift */,
 				BDA704062A67012F003C2097 /* Assets.xcassets */,
 				BDA704082A67012F003C2097 /* Preview Content */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA704112A67042E003C2097 /* toDo.swift in Sources */,
 				BDA704052A67012E003C2097 /* ContentView.swift in Sources */,
 				BDA704032A67012E003C2097 /* toDoItemApp.swift in Sources */,
+				BDA704152A670E82003C2097 /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
